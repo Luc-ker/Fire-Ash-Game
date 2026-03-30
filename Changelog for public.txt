@@ -1,10 +1,11 @@
 *************************
-Version 3.7 (??-01?-2026)
+Version 3.7 (??-06-2026)
 *************************
 New features:
 - Added an alternate world version of the Pokémon World Coronation in the postgame, which can be accessed by the portal in Twinleaf Town
 - Added audio packs! On load, the game will check if you have a specific folder and if you do, it'll play alternate tracks
 - Enabled wall maps to show the region's map
+- Added the option to swap between RMXP's and Nintendo's button layouts (Thank you maxashen!)
 
 Issues fixed:
 - Properly fix not being able to return to Cianwood City if the player didn't heal in its Pokémon Center and blacked out there
@@ -17,6 +18,7 @@ Issues fixed:
 - Fix double battles not triggering properly in Sunnyshore Gym during the WCS
 - Fix a sailor in Vermillion City taking you to Valencia Island when attempting to cancel under certain circumstances
 - Fix Magearna having incorrect icons for its shiny
+- Fix map environments not working properly
 
 Main Game Changes:
 - Changed some of Lilycove City's textures
