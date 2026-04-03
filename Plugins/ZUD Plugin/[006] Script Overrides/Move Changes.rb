@@ -277,7 +277,7 @@ end
 #-------------------------------------------------------------------------------
 class PokeBattle_Move_0EA < PokeBattle_Move
   def pbMoveFailed?(user,targets)
-    if !@battle.pbCanRun?(user.index) || $game_switches[Settings::MAXRAID_SWITCH]
+    if !@battle.pbCanRun?(user.index) && $game_switches[Settings::MAXRAID_SWITCH]
       @battle.pbDisplay(_INTL("But it failed!"))
       return true
     end

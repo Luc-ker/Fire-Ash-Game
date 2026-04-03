@@ -846,13 +846,16 @@ end
 
 #-------------------------------------------------------------------------------
 # Displays the "Cheer" command instead of "Run" during Max Raid battles.
+# Displays the "Field" command instead of "Run" if a field effect is active.
 #-------------------------------------------------------------------------------
 class CommandMenuDisplay < BattleMenuBase
   MODES += [[0,2,1,10]] # 5 = Max Raid Battle with "Cheer" instead of "Run"
+  MODES += [[0,2,1,11]] # 6 = "Field" instead of "Run"
 end
 
 class TargetMenuDisplay < BattleMenuBase
   MODES += [[0,2,1,10]] # 5 = Max Raid Battle with "Cheer" instead of "Run"
+  MODES += [[0,2,1,11]] # 6 = "Field" instead of "Run"
 end
 
 class PokeBattle_Scene
@@ -861,7 +864,8 @@ class PokeBattle_Scene
     maxRaidBattle = $game_switches[Settings::MAXRAID_SWITCH]
     varCommand, mode = _INTL("Run"),    0 if firstAction
     varCommand, mode = _INTL("Cancel"), 1 if !firstAction
-    varCommand, mode = _INTL("Call"),   2 if shadowTrainer
+    varCommand, mode = _INTL("Field"),  6 if @battle.field != :None
+    varCommand, mode = _INTL("Call"),   4 if shadowTrainer
     varCommand, mode = _INTL("Cheer"),  5 if maxRaidBattle
     # truncate the Pokémon's name if it's larger than 12 characters (Luc-ker edit)
     name = @battle.battlers[idxBattler].name
@@ -878,6 +882,7 @@ class PokeBattle_Scene
     if !($DEBUG && Input.press?(Input::CTRL))
       ret = 5 if ret==3 && maxRaidBattle   # Convert "Run" to "Cheer"
     end
+    ret = 6 if ret==3 && @battle.field != :None   # Convert "Run" to "Field"
     ret = -1 if ret==3 && !firstAction   # Convert "Run" to "Cancel"
     return ret
   end
