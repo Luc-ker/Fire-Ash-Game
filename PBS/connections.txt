@@ -245,7 +245,7 @@
 # Pinwheel Forest (670) - Nacrene City (669)
 670,East,0,669,West,4
 # Castelia City (677) - Skyarrow Bridge (676)
-677,South,0,676,North,4
+677,South,35,676,North,21
 # Route 6 (702) - Driftveil City (694)
 702,East,50,694,West,0
 # Mistralton City (707) - Route 7 (711)
