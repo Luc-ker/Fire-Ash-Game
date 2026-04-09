@@ -6267,7 +6267,7 @@ Pokemon = RIBOMBEE,55
     IV = 20
 #-------------------------------
 [BUGCATCHER,Doug,7]
-LoseText = "I’ve pollen in love with it."
+LoseText = "I've pollen in love with it."
 Pokemon = BEEDRILL,75
     Gender = male
     Moves = POISONJAB,SUBSTITUTE,BRICKBREAK,XSCISSOR
@@ -50094,7 +50094,7 @@ Pokemon = EMBOAR,100
 #-------------------------------
 [SECRET_Brandon,Brandon]
 Items = HYPERPOTION,FULLHEAL
-LoseText = "That's it! You’ve done great! You've worked hard for this!"
+LoseText = "That's it! You've done great! You've worked hard for this!"
 Pokemon = BEARTIC,75
     Moves = REST,SWAGGER,ICICLECRASH,ROCKSLIDE
     Gender = male
@@ -50134,7 +50134,7 @@ Pokemon = MAGMORTAR,90
     Happiness = 255
 #-------------------------------
 [SECRET_Brandon,Brandon,2]
-LoseText = "That's it! You’ve done great! You've worked hard for this!"
+LoseText = "That's it! You've done great! You've worked hard for this!"
 Pokemon = BEARTIC,100
     Moves = REST,SWAGGER,ICICLECRASH,ROCKSLIDE
     Gender = male
@@ -50253,7 +50253,7 @@ Pokemon = MAGMORTAR,100
     Happiness = 255
 #-------------------------------
 [SECRET_Brandon,Brandon,4]
-LoseText = "That's it! You’ve done great! You've worked hard for this!"
+LoseText = "That's it! You've done great! You've worked hard for this!"
 Pokemon = BEARTIC,100
     Moves = ICICLECRASH,SUPERPOWER,AQUAJET,SWORDSDANCE
     Gender = male

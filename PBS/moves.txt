@@ -762,22 +762,22 @@
 # Legend Arceus Moves
 #--------------------------------
 742,DIRECLAW,Dire Claw,200,80,POISON,Physical,100,15,50,NearOther,0,abefh,"The user lashes out at the target with ruinous claws. This may also leave the target poisoned, paralyzed, or asleep."
-743,PSYSHIELDBASH,Psyshield Bash,01D,70,PSYCHIC,Physical,90,10,100,NearOther,0,abef,"Cloaking itself in psychic energy, the user slams into the target. This also boosts the user’s Defense stat."
+743,PSYSHIELDBASH,Psyshield Bash,01D,70,PSYCHIC,Physical,90,10,100,NearOther,0,abef,"Cloaking itself in psychic energy, the user slams into the target. This also boosts the user's Defense stat."
 744,POWERSHIFT,Power Shift,057,0,NORMAL,Status,0,10,0,User,0,d,"The user swaps its Attack and Defense stats."
 745,STONEAXE,Stone Axe,201,65,ROCK,Physical,90,15,0,AllNearOthers,0,abef,"The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
 746,SPRINGTIDESTORM,Springtide Storm,042,100,FAIRY,Special,80,5,30,AllNearFoes,0,bef,"The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
-747,MYSTICALPOWER,Mystical Power,020,70,PSYCHIC,Special,90,10,100,NearOther,0,bef,"The user attacks by emitting a mysterious power. This also boosts the user’s Sp. Atk stat."
+747,MYSTICALPOWER,Mystical Power,020,70,PSYCHIC,Special,90,10,100,NearOther,0,bef,"The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat."
 748,RAGINGFURY,Raging Fury,0D2,120,FIRE,Physical,100,10,0,RandomNearFoe,0,abef,"The user rampages around spewing flames for two to three turns. The user then becomes confused."
 749,WAVECRASH,Wave Crash,0FE,120,WATER,Physical,100,10,10,NearOther,0,abefg,"The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user quite a lot."
 750,CHLOROBLAST,Chloroblast,199,150,GRASS,Special,95,5,100,NearOther,0,bef,"The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
 751,MOUNTAINGALE,Mountain Gale,00F,100,ICE,Physical,85,10,30,NearOther,0,be,"The user hurls giant chunks of ice at the target to inflict damage. This may also make the target flinch."
 752,VICTORYDANCE,Victory Dance,202,0,FIGHTING,Status,0,10,0,User,0,d,"The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats."
-753,HEADLONGRUSH,Headlong Rush,03C,120,GROUND,Physical,100,5,0,NearOther,0,abef,"The user smashes into the target in a full-body tackle. This also lowers the user’s Defense and Sp. Def stats."
-754,BARBBARRAGE,Barb Barrage,203,60,POISON,Physical,100,10,50,NearOther,0,bef,"The user launches countless toxic barbs to inflict damage. This may also poison the target. This move’s power is doubled if the target is already poisoned."
+753,HEADLONGRUSH,Headlong Rush,03C,120,GROUND,Physical,100,5,0,NearOther,0,abef,"The user smashes into the target in a full-body tackle. This also lowers the user's Defense and Sp. Def stats."
+754,BARBBARRAGE,Barb Barrage,203,60,POISON,Physical,100,10,50,NearOther,0,bef,"The user launches countless toxic barbs to inflict damage. This may also poison the target. This move's power is doubled if the target is already poisoned."
 755,ESPERWING,Esper Wing,01F,80,PSYCHIC,Special,100,10,100,NearOther,0,befh,"The user slashes the target with aura-enriched wings. This also boosts the user's Speed stat. This move has a heightened chance of landing a critical hit."
-756,BITTERMALICE,Bitter Malice,042,75,GHOST,Special,100,10,100,NearOther,0,bef,"The user attacks the target with spine-chilling resentment. This also lowers the target’s Attack stat."
+756,BITTERMALICE,Bitter Malice,042,75,GHOST,Special,100,10,100,NearOther,0,bef,"The user attacks the target with spine-chilling resentment. This also lowers the target's Attack stat."
 757,SHELTER,Shelter,02F,0,STEEL,Status,0,10,0,User,0,d,"The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
-758,TRIPLEARROWS,Triple Arrows,204,90,FIGHTING,Physical,100,10,50,NearOther,0,befh,"The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target’s Defense stat or make it flinch."
+758,TRIPLEARROWS,Triple Arrows,204,90,FIGHTING,Physical,100,10,50,NearOther,0,befh,"The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target's Defense stat or make it flinch."
 759,INFERNALPARADE,Infernal Parade,205,60,GHOST,Special,100,15,30,NearOther,0,bef,"The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition."
 760,CEASELESSEDGE,Ceaseless Edge,206,65,DARK,Physical,90,15,100,AllNearOthers,0,abefh,"The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack remain scattered under the target as spikes."
 761,BLEAKWINDSTORM,Bleakwind Storm,044,100,FLYING,Special,80,10,30,AllNearFoes,0,bef,"The user attacks with a gust of chilled air. It also lowers the targets' Speed stat."
@@ -791,7 +791,7 @@
 766,TRAILBLAZE,Trailblaze,01F,50,GRASS,Physical,100,20,100,NearOther,0,abef,"The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
 767,POUNCE,Pounce,044,50,BUG,Physical,100,20,100,NearOther,0,abef,"The user attacks by pouncing on the target. This also lowers the target's Speed stat."
 768,ICESPINNER,Ice Spinner,208,80,ICE,Physical,100,15,0,NearOther,0,abef,"The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain."
-769,CHILLINGWATER,Chilling Water,042,50,WATER,Special,100,20,100,NearOther,0,bef,"The user attacks the target by showering it with water that’s so cold it saps the target’s power. This also lowers the target’s Attack stat."
+769,CHILLINGWATER,Chilling Water,042,50,WATER,Special,100,20,100,NearOther,0,bef,"The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
 #--------------------------------
 # ??? Challenge
 #--------------------------------

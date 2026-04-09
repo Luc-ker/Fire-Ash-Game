@@ -288,7 +288,7 @@
 283,MOLDBREAKER2,Mold Breaker,"Moves can be used regardless of Abilities."
 284,SERENEGRACE2,Serene Grace,"Boosts the likelihood of added effects appearing."
 
-400,GOODASGOLD,Good as Gold,"A body of pure, solid gold gives the Pokémon full immunity to other Pokémon’s status moves."
+400,GOODASGOLD,Good as Gold,"A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves."
 401,CHIVALROUSWILL,Chivalrous Will,"Reduces all special damage by 80%, but can't be KOed by a physical attack."
 402,DIAMONDSKIN,Diamond Skin,"The Pokémon takes 1/8 of its max HP per hit."
 403,DESTINYREAPING,Destiny Reaping,"The Pokémon randomly makes one Pokémon on the field faint every 5 turns."
@@ -381,7 +381,7 @@
 561,SSMISTY,Misty's Flow,"Gains gradual healing upon entry and 50% chance to increase evasion after using a move."
 562,SSERIKA,Erika's Growth,"When Sunny, heal after using a move and stats can't be lowered."
 563,SSRED,Red's Destiny,"Skip recharge turns and moves will always land."
-564,SSTRED,Red’s Fighting Spirit,"Moves are always critical hits and heals after using a move in Electric Terrain."
+564,SSTRED,Red's Fighting Spirit,"Moves are always critical hits and heals after using a move in Electric Terrain."
 565,SSBLUE,Blue's Triumph,"Raise Atk and Sp Atk of itself and allies when hit and raise Sp Def of itself and allies after using a move."
 567,SSLEAF,Leaf's Tenacity,"Badly poison opponent and reduce its Def and Sp Def after using a move."
 568,SSGIOVANNI,Giovanni's Cunning,"The user's moves will always land and are critical hits. Normal-type moves become Ground type."
