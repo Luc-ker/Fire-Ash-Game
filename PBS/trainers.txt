@@ -64271,7 +64271,7 @@ Pokemon = VOLCARONA,100
     Happiness = 255
 #-------------------------------
 [ARC_Silver,Silver]
-LoseText = "Ours hearts will keep growing stronger."
+LoseText = "Our hearts will keep growing stronger."
 Pokemon = HOOH,100
     Moves = SACREDFIRE,ASACREDFIRE,RECOVER,ARCSILVER
     AbilityIndex = 0
