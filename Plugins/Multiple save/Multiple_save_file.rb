@@ -331,12 +331,14 @@ class PokemonLoadScreen
     cmd_continue     = -1
     cmd_new_game     = -1
     cmd_options      = -1
+    cmd_language     = -1
     cmd_debug        = -1
     cmd_quit         = -1
     show_continue    = FileSave.count>0
-    commands[cmd_continue = commands.length] = _INTL('Load Game') if show_continue
+    commands[cmd_continue = commands.length]  = _INTL('Load Game') if show_continue
     commands[cmd_new_game = commands.length]  = _INTL('New Game')
     commands[cmd_options = commands.length]   = _INTL('Options')
+    commands[cmd_language = commands.length]  = _INTL('Language') if Settings::LANGUAGES.length >= 2
     commands[cmd_debug = commands.length]     = _INTL('Debug') if $DEBUG
     commands[cmd_quit = commands.length]      = _INTL('Quit Game')
 		@scene.pbStartScene(commands, false, nil, 0, 0)
@@ -363,6 +365,13 @@ class PokemonLoadScreen
           screen = PokemonOptionScreen.new(scene)
           screen.pbStartScreen(true)
         end
+      when cmd_language    # (Added by: Luc-ker)
+        @scene.pbEndScene
+        $PokemonSystem.language = pbChooseLanguage
+        pbLoadMessages('Data/' + Settings::LANGUAGES[$PokemonSystem.language][1])
+        save_data($PokemonSystem, Game::SYSTEM_SETTINGS_FILE)
+        $scene = pbCallTitle
+        return
       when cmd_debug
         pbFadeOutIn { pbDebugMenu(false) }
       when cmd_quit
@@ -514,7 +523,7 @@ class ScreenChooseFileSave
     end
     textpos = []
     (0...endnum).each { |i| 
-      string = _INTL("Save File #{namesave+1+i}")
+      string = _INTL("Save File {1}", namesave+1+i)
       x = 24*2 + 36; y = 16*2 + 5 + 48*i
       textpos<<[string,x,y,0,BaseColor,ShadowColor] 
     }
@@ -650,14 +659,6 @@ class ScreenChooseFileSave
 							@posinfor = 0; @qinfor = 0; @mysgif = false
               dispose; draw = true; loadmenu=false; infor = false
 						}
-          # Language
-          elsif Settings::LANGUAGES.length>=2 && ( @posinfor==2 || (@posinfor==1 && !@mysgif))
-						$PokemonSystem.language = pbChooseLanguage
-						pbLoadMessages('Data/' + Settings::LANGUAGES[$PokemonSystem.language][1])
-						self.fileLoad[:pokemon_system] = $PokemonSystem
-						File.open(FileSave.name(@position+1), 'wb') { |file| Marshal.dump(self.fileLoad, file) }
-            @posinfor = 0; @qinfor = 0; @mysgif = false
-            dispose; draw = true; loadmenu=false; infor = false
           end
         end
         if checkInput(Input::BACK)
@@ -695,12 +696,11 @@ class ScreenChooseFileSave
   def drawInfor(type,font=nil)
 		# Set trainer
 		trainer = self.fileLoad[:player]
-    # Set mystery gift and language
+    # Set mystery gift
     if type==1
 			mystery = self.fileLoad[:player].mystery_gift_unlocked
       @mysgif = mystery
       @qinfor+=1 if mystery
-      @qinfor+=1 if Settings::LANGUAGES.length>=2
       (0...@qinfor).each { |i|
         create_sprite("panel load #{i}","loadPanels",@viewport)
         w = 384; h = 46 
@@ -728,7 +728,7 @@ class ScreenChooseFileSave
     # Text of trainer
     x = 24*2; y = 16*2
     title = (type==0)? "Save" : (type==1)?  "Load" : "Delete"
-    textpos<<[_INTL("#{title}"),16*2+x,5*2+y,0,TEXTCOLOR,TEXTSHADOWCOLOR]
+    textpos<<[_INTL(title),16*2+x,5*2+y,0,TEXTCOLOR,TEXTSHADOWCOLOR]
     textpos<<[_INTL("Badges:"),16*2+x,56*2+y,0,TEXTCOLOR,TEXTSHADOWCOLOR]
     textpos<<[trainer.badge_count.to_s,103*2+x,56*2+y,1,TEXTCOLOR,TEXTSHADOWCOLOR]
     textpos<<[_INTL("Pokédex:"),16*2+x,72*2+y,0,TEXTCOLOR,TEXTSHADOWCOLOR]
@@ -754,10 +754,9 @@ class ScreenChooseFileSave
     textpos<<[mapname,193*2+x,5*2+y,1,TEXTCOLOR,TEXTSHADOWCOLOR]
     # Load menu
     if type==1
-      # Mystery gift / Language
+      # Mystery gift
       string = []
       string<<_INTL("Mystery Gift") if mystery
-      string<<_INTL("Language") if Settings::LANGUAGES.length>=2
       if @qinfor>0
         (0...@qinfor).each { |i|
           str = string[i]
