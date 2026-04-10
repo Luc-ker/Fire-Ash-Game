@@ -354,7 +354,6 @@ class PokeBattle_Battle
     pbCalculatePriority(true)
     pbAttackPhasePriorityChangeMessages
     pbAttackPhaseCall
-    pbAttackPhaseFieldEffect
     pbAttackPhaseSwitch
     return if @decision>0
     pbAttackPhaseItems
@@ -365,6 +364,7 @@ class PokeBattle_Battle
     pbAttackPhaseDynamax
     pbAttackPhaseRaidBoss
     pbAttackPhaseCheer
+    pbAttackPhaseFieldEffect
     pbAttackPhaseMoves
   end
   

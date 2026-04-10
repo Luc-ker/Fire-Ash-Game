@@ -864,7 +864,7 @@ class PokeBattle_Scene
     maxRaidBattle = $game_switches[Settings::MAXRAID_SWITCH]
     varCommand, mode = _INTL("Run"),    0 if firstAction
     varCommand, mode = _INTL("Cancel"), 1 if !firstAction
-    varCommand, mode = _INTL("Field"),  6 if @battle.field != :None
+    varCommand, mode = _INTL("Field"),  6 if @battle.fieldEffect != :None
     varCommand, mode = _INTL("Call"),   4 if shadowTrainer
     varCommand, mode = _INTL("Cheer"),  5 if maxRaidBattle
     # truncate the Pokémon's name if it's larger than 12 characters (Luc-ker edit)
@@ -882,7 +882,7 @@ class PokeBattle_Scene
     if !($DEBUG && Input.press?(Input::CTRL))
       ret = 5 if ret==3 && maxRaidBattle   # Convert "Run" to "Cheer"
     end
-    ret = 6 if ret==3 && @battle.field != :None   # Convert "Run" to "Field"
+    ret = 6 if ret==3 && @battle.fieldEffect != :None   # Convert "Run" to "Field"
     ret = -1 if ret==3 && !firstAction   # Convert "Run" to "Cancel"
     return ret
   end
