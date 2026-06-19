@@ -53,6 +53,7 @@ class PokeBattle_Battle
     if @choices[idxBattler][0]==:UseItem
       item = @choices[idxBattler][1]
       pbReturnUnusedItemToBag(item,idxBattler) if item
+      @itemsRemaining += 1 if @itemsRemaining >= 0
     end
     pbUnregisterMegaEvolution(idxBattler)
     pbUnregisterUltraBurst(idxBattler)

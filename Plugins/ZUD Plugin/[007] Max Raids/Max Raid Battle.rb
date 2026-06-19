@@ -914,7 +914,7 @@ class PokeBattle_Scene
         ret = cw.index
         @lastCmd[idxBattler] = ret
         break
-      elsif Input.trigger?(Input::BACK) && [1,2,5].include?(mode)
+      elsif Input.trigger?(Input::BACK) && [1,2,5,6].include?(mode)
         pbPlayCancelSE
         break
       elsif Input.trigger?(Input::F9) && $DEBUG
