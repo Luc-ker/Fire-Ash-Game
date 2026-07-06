@@ -61,7 +61,7 @@ module Settings
 #-------------------------------------------------------------------------------
 # Map ID's where Dynamax (POWERSPOTS) and Eternamax (ETERNASPOT) are allowed.
 #-------------------------------------------------------------------------------
-  POWERSPOTS     = [10,37,042,56,59,61,64,171,183,187,214,222,232,259,274,397,422,508,636,881,972,973,974,980]  # Pokemon Gyms, Pokemon League, Battle Facilities
+  POWERSPOTS     = [10,37,042,56,59,61,64,171,183,187,214,222,232,259,274,397,422,508,636,881,972,973,974,980,996]  # Pokemon Gyms, Pokemon League, Battle Facilities
   ETERNASPOT     = [508]                   # None by default
   
   

@@ -277,6 +277,7 @@ class PokemonSaveScreen
                 file.endScene
                 ret = file.staymenu
               }
+              puts ret
             end
           end
         else # there is NO pre-existing save data
@@ -575,7 +576,7 @@ class ScreenChooseFileSave
 							if self.fileLoad.empty?
 								@choose = 0; @position = 0
 								if FileSave.count==0
-									pbMessage(_INTL('You dont have any save file. Restart game now.'))
+									pbMessage(_INTL('You don\'t have any save files. Restart game now.'))
 									@staymenu = false
 									$scene = pbCallTitle if @type == 1
 									break
@@ -604,10 +605,10 @@ class ScreenChooseFileSave
 								SaveData.changeFILEPATH(FileSave.name(@position+1))
 								if Game.save
 									pbMessage(_INTL("\\se[]{1} saved the game.\\me[GUI save game]\\wtnp[30]", $Trainer.name))
-									ret = true
+                  @staymenu = true
 								else
 									pbMessage(_INTL("\\se[]Save failed.\\wtnp[30]"))
-									ret = false
+                  @staymenu = false
 								end
 								SaveData.changeFILEPATH($storenamefilesave.nil? ? FileSave.name : $storenamefilesave)
                 break

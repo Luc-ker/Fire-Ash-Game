@@ -1,3 +1,13 @@
+True PWC:
+add anime exclusive trainers (trip, tobias, etc.)
+nando (gentleman)
+zoey (cool trainer f)
+plumeria
+add team viewer to end of despair challenge
+
+Field effects
+- Power Field (?) -> (Re)charge moves have no cooldown
+
 gc stuff:
 - nc elio and selene battle bgm + dialogue
 
@@ -10,10 +20,12 @@ audio packs:
 - update various map bgms in metadata.txt
 - loop audios (could skip tbf)
 
-
+issues:
+- fix not being able to get force save event with other options
 - make duplicates of characters disappear (mainly journeys events?)
 - fix glitching Rotom Phone if player doesn't return to Cerise Lab
 
+qol stuff:
 - Change directory of GameSpeedSetting.dat and PokemonSystem to keybindings folder (ideally, rn it's in the Save Files folder) so it doesn't need to be updated for every redownload
 - Update MKXP to use the version that Pokémon Essentials v21.1 uses - this should hopefully make the game lag less!
 - Update graphics for the Town Map for all regions (waiting on Hitsu)
@@ -34,17 +46,7 @@ audio packs:
 
 # The numbers are listed in the order: BattlerPlayerX, BattlerPlayerY, BattlerEnemyX, BattlerEnemyY, Altitude (unused), BattlerShadowX, BattlerShadowSize
 
-- zone common anims
-normal (fully done)
-fighting (fully done)
-poison (fully done)
-bug (fully done)
-dragon (fully done)
-steel (fully done)
-
-- arc suit alder sprite (done)
 - fix mom healing in pallet town
-- cianwood city gym loss bug?
 - update fly map graphics (just need bg from Hitsu now)
 - move anims for z-moves and max moves (I'll have to check which moves specifically)
 - move anims for customs moves (mainly despair)
@@ -61,7 +63,7 @@ new website:
 - downloads
 - discord
 
-- waiting for ow sprites for sync and titan trainers (Oolert unless stated otherwise)
+- waiting for ow sprites for sync and titan trainers
 Neo Champion Marnie
 Neo Champion Hop
 Neo Champion Bede
@@ -69,7 +71,6 @@ Neo Champion Elio
 Neo Champion Selene
 
 (currently being done by Megshi, might take like 3 months tho)
-Neo Champion Red
 Neo Champion Leaf
 Neo Champion Blue
 
@@ -79,3 +80,7 @@ Arc Suit Silver
 Arc Suit Blue
 Arc Suit Brock
 Arc Suit Misty
+Arc Suit Sabrina
+Arc Suit Korrina
+
+"I've found a bug/clitch and/or game crashing battle in the Alola region specifically Hau'oli Outskirts and the Mall against your classmates as the music will stop, you can finish the battle but game may crash afterwords as it doesn't load back the music."
