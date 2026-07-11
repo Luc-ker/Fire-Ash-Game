@@ -2,7 +2,7 @@
 Version 3.7 (03-07-2026)
 ************************
 New features:
-- Added an alternate world version of the Pokémon World Coronation Series in the postgame, which can be accessed by the portal in Twinleaf Town
+- Added an alternate world version of the Pokémon World Coronation Series in the postgame, which can be accessed by the portal in Sandgem Town
 - Enabled wall maps to show the region's map
 - Added the option to swap between RMXP's and Nintendo's button layouts (Thank you maxashen!)
 - Added the option to reduce the speed of tile animations to reduce lag
