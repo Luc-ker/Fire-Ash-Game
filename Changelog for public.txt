@@ -1,3 +1,12 @@
+**************************
+Version 3.7.1 (19-07-2026)
+**************************
+Issued Fixed:
+- Fix battles against Lyra, Faba and Kahili crashing the game, as well as having incorrect sprites in some places
+- Certain Galarian gym leaders having abnormally large sprites in the alternate world PWC
+- Abra Teleport in Celestic Town is now only available after defeating Paul on Route 210
+
+
 ************************
 Version 3.7 (03-07-2026)
 ************************
