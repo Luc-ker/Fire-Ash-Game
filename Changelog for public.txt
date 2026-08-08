@@ -1,7 +1,14 @@
 **************************
+Version 3.8 (??-??-2026/7)
+**************************
+Issues Fixed:
+- Pokémon not evolving into their Hisuian forms on Mt. Coronet - Past
+- Shiny icons for Pokémon not moving when not being selected
+
+**************************
 Version 3.7.1 (19-07-2026)
 **************************
-Issued Fixed:
+Issues Fixed:
 - Fix battles against Lyra, Faba and Kahili crashing the game, as well as having incorrect sprites in some places
 - Certain Galarian gym leaders having abnormally large sprites in the alternate world PWC
 - Certain tiles missing proper collision
