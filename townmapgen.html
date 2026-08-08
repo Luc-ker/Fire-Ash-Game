@@ -1,51 +1,287 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+    #map {
+      position: relative;
+      width: 480px;
+      height: 320px;
+    }
+
+    #map > img[name="map"] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 480px;
+      height: 320px;
+      z-index: 1;
+    }
+
+    #mapPoints {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 480px;
+      height: 320px;
+      z-index: 2;
+    }
+
+    #mapPoints > div {
+      position: absolute;
+    }
+
+    #mapPoints img {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+
+    .map-container {
+      overflow-x: auto;
+    }
+
+    .editor-column {
+      padding: 1rem;
+    }
+  </style>
+</head>
 <body>
-<div id="map">
-  <img name="map" src="Graphics/Pictures/mapRegion0.png" alt="" width="480" height="320"/>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 editor-column">
+      <div class="map-container mb-3">
+        <div id="map">
+          <img name="map"
+              src="Graphics/Pictures/mapRegion0.png"
+              alt=""
+              width="480"
+              height="320"/>
+
+          <div id="mapPoints"></div>
+        </div>
+      </div>
+      <form name="mf" action="javascript:void(null)">
+        <div class="mb-3">
+
+          <div class="mb-2">
+            <label for="filename" class="form-label">
+              Map Filename (in Graphics/Pictures):
+            </label>
+            <div class="input-group">
+              <input
+                type="text"
+                id="filename"
+                name="filename"
+                value="mapRegion0.png"
+                class="form-control"
+              />
+              <input
+                type="button"
+                name="btnChange"
+                value="Change"
+                class="btn btn-primary"
+              />
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label class="form-label">Square size:</label>
+            <div class="row g-2">
+              <div class="col-auto">
+                <div class="input-group">
+                  <span class="input-group-text">W</span>
+                  <input
+                    type="text"
+                    name="sqwidth"
+                    size="4"
+                    min="1"
+                    max="16"
+                    value="16"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="input-group">
+                  <span class="input-group-text">H</span>
+                  <input
+                    type="text"
+                    name="sqheight"
+                    size="4"
+                    min="1"
+                    max="16"
+                    value="16"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <input
+                  type="button"
+                  name="btnRefresh"
+                  value="Refresh"
+                  class="btn btn-secondary"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label for="regionName" class="form-label">
+              Region Name:
+            </label>
+            <div class="input-group">
+              <input
+                type="text"
+                id="regionName"
+                name="name"
+                value="Sample Region"
+                class="form-control"
+              />
+              <input
+                type="button"
+                name="btnChange2"
+                value="Change"
+                class="btn btn-primary"
+              />
+            </div>
+          </div>
+
+        </div>
+      </form>
+      <hr>
+    </div>
+
+
+    <div class="col-md-6 editor-column">
+
+      <form name="f" action="javascript:void(null)">
+
+        <div class="table-responsive mb-3">
+          <table class="table table-sm align-middle">
+            <tbody>
+              <tr>
+                <td>Current Position:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="curpos"
+                    readonly
+                    class="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>Name:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="locname"
+                    class="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>Point of Interest:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="poi"
+                    class="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>Fly Destination:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="healing"
+                    class="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>Switch:</td>
+                <td>
+                  <input
+                    type="text"
+                    name="swtch"
+                    class="form-control"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="button"
+            name="btnSave"
+            value="Save"
+            disabled="disabled"
+            class="btn btn-primary"
+          />
+
+          <input
+            type="button"
+            name="btnCancel"
+            value="Cancel"
+            class="btn btn-secondary"
+          />
+        </div>
+
+        <div class="mb-2">
+          <label for="data" class="form-label">
+            Single section from townmap.txt (without section heading):
+          </label>
+
+          <textarea
+            name="data"
+            id="data"
+            rows="10"
+            class="form-control font-monospace"
+          ></textarea>
+        </div>
+
+        <div class="mb-2">
+          <input
+            type="button"
+            name="btnLoad"
+            value="Load"
+            class="btn btn-primary"
+          />
+          <span class="text-muted">
+            To load data into the editor
+          </span>
+        </div>
+
+        <p class="text-muted">
+          Copy the data above into townmap.txt when you're done.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
 </div>
-<form name="mf" action="javascript:void(null)">
-  <div>
-    Map Filename (in Graphics/Pictures/): <input type="text" name="filename" value="mapRegion0.png"/>&nbsp;
-    <input type="button" name="btnChange" value="Change"/><br/ >
-    Square width: <input type="text" name="sqwidth" size="4" min="1" max="16" value="16"/>&nbsp;
-    Square height: <input type="text" name="sqheight" size="4" min="1" max="16" value="16"/>&nbsp;
-    <input type="button" name="btnRefresh" value="Refresh"/><br/ >
-    Region Name: <input type="text" name="name" value="Sample Region"/>&nbsp;
-    <input type="button" name="btnChange2" value="Change"/>
-  </div>
-</form>
-<hr/>
-<form name="f" action="javascript:void(null)">
-  <table>
-    <tr>
-      <td>Current Position:</td>
-	  <td><input type="text" name="curpos" readonly="readonly"/></td>
-	</tr>
-    <tr>
-      <td>Name:</td>
-	  <td><input type="text" name="locname"/><td>
-	</tr>
-    <tr>
-      <td>Point of Interest:</td>
-	  <td><input type="text" name="poi"/><td>
-	</tr>
-    <tr>
-      <td>Fly Destination:</td>
-	  <td><input type="text" name="healing"/><td>
-	</tr>
-    <tr>
-      <td>Switch:</td>
-	  <td><input type="text" name="swtch"/><td>
-	</tr>
-  </table>
-  <div>
-    <input type="button" name="btnSave" value="Save" disabled="disabled"/> 
-    <input type="button" name="btnCancel" value="Cancel"/><br/ >
-    Single section from townmap.txt (without section heading):<br/ >
-    <textarea name="data" rows="10" cols="70"></textarea><br/ >
-    <input type="button" name="btnLoad" value="Load"/> (To load data into the editor)<br/ >
-    Copy the data above into townmap.txt when you're done.
-  </div>
-</form>
+
 <script type="text/javascript">
   choiceX=-1
   choiceY=-1
@@ -57,18 +293,12 @@
   }
 
   function addChild(e){
-    if(document.documentElement){
-      document.documentElement.appendChild(e) 
-    } else{
-      document.body.appendChild(e) 
-    }
+    document.getElementById("mapPoints").appendChild(e);
   }
 
   function removeChild(e){
-    if(document.documentElement){
-      document.documentElement.removeChild(e) 
-    } else{
-      document.body.removeChild(e) 
+    if(e.parentNode){
+      e.parentNode.removeChild(e);
     }
   }
 
@@ -127,10 +357,7 @@
       if (temp.indexOf(',') >= 0) break;
       return temp;
     }
- //   temp = temp.replace(/\'/g,"''");
- //   temp = temp.replace(/\"/g,"\"\"");
     return temp
- //   return "\"" + temp + "\"";
   }
 
   function CsvNextToken(dataobj){
@@ -167,11 +394,6 @@
         value = value + c;
         continue;  
       }
-//      if ((c == '"') || (c == "'")){
-//        inside = true;
-//        q = c;
-//        continue;
-//      }
       if (c == ',') break;
       value = value + c;
     }
@@ -193,8 +415,8 @@
           alert("Bad line syntax in line "+(i+1))
         }
         if(e[1]=="Filename"){
-          o=document.getElementById("map")
-          o.innerHTML='<img name="map" src="Graphics/Pictures/'+e[2]+'" alt="" width="480" height="320"/'+'>' 
+          o=document.images.map;
+          o.src=`Graphics/Pictures/${e[2]}`;
         } else if(e[1]=="Name"){
           document.mf.name.value=e[2]
         } else if(e[1]=="Point"){
@@ -213,31 +435,56 @@
   }
 
   function createMapPoint(imgfile,x,y){
-    e=document.createElement("div")
-    e.innerHTML="<img src='"+imgfile+"' alt=''/>"
-    e.style.left=elempos[0]+x*document.mf.sqwidth.value+(document.mf.sqwidth.value-8)/2
-    e.style.top=elempos[1]+y*document.mf.sqheight.value+(document.mf.sqheight.value-8)/2
-    e.style.position="absolute"
-    attachEvent(e,"mousemove",MapMouseMove)
-    attachEvent(e,"click",MapClick)
-    return e
+    var e=document.createElement("div");
+
+    e.innerHTML="<img src='"+imgfile+"' alt=''/>";
+
+    e.style.position="absolute";
+    e.style.left=(
+      x*parseInt(document.mf.sqwidth.value,10) +
+      (parseInt(document.mf.sqwidth.value,10)-8)/2
+    )+"px";
+
+    e.style.top=(
+      y*parseInt(document.mf.sqheight.value,10) +
+      (parseInt(document.mf.sqheight.value,10)-8)/2
+    )+"px";
+
+    e.style.zIndex="3";
+
+    attachEvent(e,"mousemove",MapMouseMove);
+    attachEvent(e,"click",MapClick);
+
+    return e;
   }
 
   function showMapPoints(){
-    for(var i=0;i < mpelements.length ; i++){ //>
-      removeChild(mpelements[i])
+    for(var i=0;i<mpelements.length;i++){
+      removeChild(mpelements[i]);
     }
-    mpelements=[]
-    elempos=positionedOffset(document.images.map)
-    for(var i=0;i<mappoints.length;i++){//>
-      e=createMapPoint("knownpoint.bmp",mappoints[i][0],mappoints[i][1])
-      addChild(e)
-      mpelements[mpelements.length]=e
+
+    mpelements=[];
+
+    for(var i=0;i<mappoints.length;i++){
+      var e=createMapPoint(
+        "knownpoint.bmp",
+        mappoints[i][0],
+        mappoints[i][1]
+      );
+
+      addChild(e);
+      mpelements[mpelements.length]=e;
     }
+
     if(choiceX!=-1 || choiceY!=-1){
-      e=createMapPoint("selpoint.bmp",choiceX,choiceY)
-      addChild(e)
-      mpelements[mpelements.length]=e
+      var e=createMapPoint(
+        "selpoint.bmp",
+        choiceX,
+        choiceY
+      );
+
+      addChild(e);
+      mpelements[mpelements.length]=e;
     }
   }
 
@@ -371,3 +618,4 @@
     })
   })
 </script>
+</body>
