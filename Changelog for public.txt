@@ -4,6 +4,8 @@ Version 3.8 (??-??-2026/7)
 Issues Fixed:
 - Pokémon not evolving into their Hisuian forms on Mt. Coronet - Past
 - Shiny icons for Pokémon not moving when not being selected
+- Typos with Burn Heal and Paralyze being misspelled as "Bun Heal" and "Parlyz Heal" respectively
+
 
 **************************
 Version 3.7.1 (19-07-2026)
