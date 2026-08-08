@@ -715,7 +715,7 @@ WildCaptureME = Deluxe/Kanto/Wild Capture
 #-------------------------------
 [129]
 # Laverre Scarf Shop
-MapPosition = 5,14,5
+MapPosition = 5,14,2
 BattleBack = indoor2
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -6057,6 +6057,7 @@ WildCaptureME = Deluxe/Sinnoh/Wild Capture
 # Castle of Chivalry
 ShowArea = true
 BattleBack = indoor1
+MapPosition = 5,16,10
 #-------------------------------
 [617]
 # Canalave Gym
@@ -7987,14 +7988,16 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [797]
 # Lumiose Gate
+MapPosition = 5,14,11
 #-------------------------------
 [798]
 # Route 4
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,14,11
+MapPosition = 5,14,12
 BattleBack = field
+MapSize = 1,111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8006,8 +8009,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,14,12
+MapPosition = 5,14,15
 BattleBack = city
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8016,7 +8020,8 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [800]
 # Santalune House
-MapPosition = 5,14,12
+MapPosition = 5,14,15
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8026,7 +8031,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [801]
 # Santalune Pokémon Center
 HealingSpot = 801,7,4
-MapPosition = 5,14,12
+MapPosition = 5,15,16
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8036,7 +8041,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [802]
 # Santalune Gym
-MapPosition = 5,14,12
+MapPosition = 5,15,15
 BattleBack = elite5
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8049,8 +8054,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,13,12
+MapPosition = 5,10,13
 BattleBack = field
+MapSize = 4,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8062,8 +8068,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,12,12
+MapPosition = 5,9,14
 BattleBack = city
+MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8072,7 +8079,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [805]
 # Camphrier House
-MapPosition = 5,12,12
+MapPosition = 5,9,14
 BattleBack = indoor2
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8083,7 +8090,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [806]
 # Camphrier Pokémon Center
 HealingSpot = 806,7,4
-MapPosition = 5,12,12
+MapPosition = 5,9,15
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8096,7 +8103,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,12,11
+MapPosition = 5,9,13
 BattleBack = field
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8109,7 +8116,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,12,10
+MapPosition = 5,9,12
 BattleBack = field
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8119,7 +8126,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [809]
 # Parfum Palace
-MapPosition = 5,12,10
+MapPosition = 5,9,12
 BattleBack = indoor2
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8132,8 +8139,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,8,12
+MapPosition = 5,6,14
 BattleBack = field
+MapSize = 3,011110
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8142,7 +8150,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [811]
 # Route 7 Day Care
-MapPosition = 5,8,12
+MapPosition = 5,8,14
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8154,8 +8162,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,7,12
+MapPosition = 5,5,14
 BattleBack = rocky
+MapSize = 1,111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8167,8 +8176,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,7,11
+MapPosition = 5,5,12
 BattleBack = city
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8177,8 +8187,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [814]
 # Cyllage House
-MapPosition = 5,7,11
+MapPosition = 5,5,12
 BattleBack = indoor2
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8188,7 +8199,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [815]
 # Cyllage Pokémon Center
 HealingSpot = 815,7,4
-MapPosition = 5,7,11
+MapPosition = 5,5,13
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8198,7 +8209,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [816]
 # Cyllage Gym
-MapPosition = 5,7,11
+MapPosition = 5,6,13
 BattleBack = elite6
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8211,8 +8222,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,7,10
+MapPosition = 5,5,10
 BattleBack = field
+MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8224,8 +8236,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,7,9
+MapPosition = 5,5,8
 BattleBack = city
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8234,8 +8247,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [819]
 # Geosenge House
-MapPosition = 5,7,9
+MapPosition = 5,6,9
 BattleBack = indoor2
+MapSize = 2,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8245,7 +8259,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [820]
 # Geosenge Pokémon Center
 HealingSpot = 820,7,4
-MapPosition = 5,7,9
+MapPosition = 5,5,9
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8258,7 +8272,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,8,9
+MapPosition = 5,7,9
 BattleBack = field
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8270,8 +8284,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Reflection Cave
 ShowArea = true
 Environment = Cave
-MapPosition = 5,9,9
+MapPosition = 5,7,7
 BattleBack = cave1
+MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8283,8 +8298,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,9,8
+MapPosition = 5,7,5
 BattleBack = city
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8293,8 +8309,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [824]
 # Shalour House
-MapPosition = 5,9,8
+MapPosition = 5,7,5
 BattleBack = indoor2
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8304,7 +8321,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [825]
 # Shalour Pokémon Center
 HealingSpot = 825,7,4
-MapPosition = 5,9,8
+MapPosition = 5,8,6
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8314,7 +8331,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [826]
 # Shalour Gym
-MapPosition = 5,9,8
+MapPosition = 5,7,5
 BattleBack = elite3
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8328,8 +8345,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Sun,20
-MapPosition = 5,10,8
+MapPosition = 5,9,6
 BattleBack = field
+MapSize = 3,101111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8342,7 +8360,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Sun,70
-MapPosition = 5,11,8
+MapPosition = 5,12,6
 BattleBack = rocky
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
@@ -8353,7 +8371,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [829]
 # Coumarine House
-MapPosition = 5,11,8
+MapPosition = 5,12,6
 BattleBack = indoor2
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
@@ -8365,7 +8383,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [830]
 # Coumarine Pokémon Center
 HealingSpot = 830,7,4
-MapPosition = 5,11,9
+MapPosition = 5,12,7
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8375,7 +8393,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [831]
 # Coumarine Gym
-MapPosition = 5,11,9
+MapPosition = 5,12,7
 BattleBack = elite5
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8389,8 +8407,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Sandstorm,100
-MapPosition = 5,12,9
+MapPosition = 5,12,8
 BattleBack = rocky
+MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8413,8 +8432,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Rain,30
-MapPosition = 5,14,6
+MapPosition = 5,14,3
 BattleBack = field
+MapSize = 1,11111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8426,7 +8446,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,14,4
+MapPosition = 5,14,1
 BattleBack = city
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
@@ -8437,7 +8457,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [836]
 # Laverre House
-MapPosition = 5,14,4
+MapPosition = 5,14,1
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8447,7 +8467,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [837]
 # Laverre Pokémon Fan Club
-MapPosition = 5,14,4
+MapPosition = 5,14,1
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8456,7 +8476,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [838]
 # Poké Ball Factory
-MapPosition = 5,14,4
+MapPosition = 5,14,1
 BattleBack = indoor3
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8467,7 +8487,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [839]
 # Laverre Pokémon Center
 HealingSpot = 839,7,4
-MapPosition = 5,14,5
+MapPosition = 5,14,2
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8477,7 +8497,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [840]
 # Laverre Gym
-MapPosition = 5,14,5
+MapPosition = 5,14,2
 BattleBack = elite4
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8490,8 +8510,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,15,5
+MapPosition = 5,15,2
 BattleBack = field
+MapSize = 2,101101
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8504,7 +8525,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Snow,30
-MapPosition = 5,16,4
+MapPosition = 5,17,4
 BattleBack = city
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
@@ -8515,7 +8536,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [843]
 # Dendemille House
-MapPosition = 5,16,4
+MapPosition = 5,17,4
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8525,7 +8546,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [844]
 # Dendemille Pokémon Center
 HealingSpot = 844,7,4
-MapPosition = 5,16,5
+MapPosition = 5,17,5
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8539,9 +8560,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Snow,100
-MapPosition = 5,17,5
+MapPosition = 5,18,5
 BattleBack = snow
-MapSize = 3,101
+MapSize = 4,1011
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8552,7 +8573,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Frost Cavern 1F
 ShowArea = true
 Environment = Cave
-MapPosition = 5,18,5
+MapPosition = 5,19,5
 BattleBack = cave2
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8564,7 +8585,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Frost Cavern 2F
 ShowArea = true
 Environment = Cave
-MapPosition = 5,18,5
+MapPosition = 5,19,5
 BattleBack = cave1
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8576,7 +8597,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Frost Cavern 3F
 ShowArea = true
 Environment = Cave
-MapPosition = 5,18,5
+MapPosition = 5,19,5
 BattleBack = cave1
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8589,7 +8610,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,20,5
+MapPosition = 5,22,5
 BattleBack = city
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8599,7 +8620,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [850]
 # Anistar House
-MapPosition = 5,20,5
+MapPosition = 5,22,5
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8609,7 +8630,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [851]
 # Anistar Pokémon Center
 HealingSpot = 851,7,4
-MapPosition = 5,20,5
+MapPosition = 5,22,5
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8622,7 +8643,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,20,4
+MapPosition = 5,22,4
 BattleBack = water
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8632,7 +8653,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [853]
 # Anistar Gym
-MapPosition = 5,20,5
+MapPosition = 5,22,5
 BattleBack = elite4
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8645,8 +8666,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,20,6
+MapPosition = 5,22,6
 BattleBack = field
+MapSize = 2,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8655,7 +8677,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [855]
 # Route 18 House
-MapPosition = 5,20,6
+MapPosition = 5,23,6
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8667,7 +8689,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,20,7
+MapPosition = 5,23,7
 BattleBack = city
 MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
@@ -8678,7 +8700,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [857]
 # Couriway House
-MapPosition = 5,20,8
+MapPosition = 5,23,8
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8688,7 +8710,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [858]
 # Couriway Pokémon Center
 HealingSpot = 858,7,4
-MapPosition = 5,20,7
+MapPosition = 5,23,7
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8701,8 +8723,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,20,9
+MapPosition = 5,22,9
 BattleBack = field
+MapSize = 2,1111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8714,8 +8737,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,19,9
+MapPosition = 5,21,9
 BattleBack = field
+MapSize = 1,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8726,7 +8750,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Terminus Cave
 ShowArea = true
 Environment = Cave
-MapPosition = 5,21,9
+MapPosition = 5,24,9
 BattleBack = cave1
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8738,7 +8762,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 # Terminus Cave
 ShowArea = true
 Environment = Cave
-MapPosition = 5,21,9
+MapPosition = 5,24,9
 BattleBack = cave1
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8752,8 +8776,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Snow,50
-MapPosition = 5,18,9
+MapPosition = 5,18,8
 BattleBack = city
+MapSize = 3,111111111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8762,7 +8787,8 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [864]
 # Snowbelle House
-MapPosition = 5,18,9
+MapPosition = 5,18,8
+MapSize = 3,111111111
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -8775,7 +8801,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 Weather = Snow,50
-MapPosition = 5,18,10
+MapPosition = 5,19,11
 BattleBack = snow
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8785,7 +8811,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 #-------------------------------
 [866]
 # Snowbelle Gym
-MapPosition = 5,18,9
+MapPosition = 5,19,9
 BattleBack = elite2
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8796,7 +8822,7 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 [867]
 # Snowbelle Pokémon Center
 HealingSpot = 867,7,4
-MapPosition = 5,18,9
+MapPosition = 5,20,9
 MapBGM = Deluxe/Kalos/Pokemon Center
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
@@ -8809,8 +8835,9 @@ WildCaptureME = Deluxe/Kalos/Wild Capture
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 5,17,9
+MapPosition = 5,16,9
 BattleBack = field
+MapSize = 2,11
 WildBattleBGM = Deluxe/Kalos/Wild Battle
 TrainerBattleBGM = Deluxe/Kalos/Trainer Battle
 WildVictoryME = Deluxe/Kalos/Wild Victory
@@ -10236,8 +10263,11 @@ BattleBack = distortion
 # Wyndon Stadium?
 MapPosition = 9,0,0
 BattleBack = distortion
+MapBGM = Deluxe/PWC/PWC Lobby
 #-------------------------------
 [996]
 # Stadium
 MapPosition = 9,0,0
 BattleBack = distortion
+MapBGM = Deluxe/PWC/PWC Stadium
+TrainerVictoryME = Deluxe/PWC/PWC Victory
