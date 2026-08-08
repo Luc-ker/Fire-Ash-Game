@@ -6,6 +6,9 @@ Issues Fixed:
 - Shiny icons for Pokémon not moving when not being selected
 - Typos with Burn Heal and Paralyze being misspelled as "Bun Heal" and "Parlyz Heal" respectively
 
+Misc.:
+- Further improve map graphics across the game as a whole
+
 
 **************************
 Version 3.7.1 (19-07-2026)
@@ -63,6 +66,7 @@ Misc.:
 - Added unique audio for Pokémon Center healing for each region as well as for some routes in Kanto
 - Updated graphics for the Town Map from Kanto to Unova (excluding the Orange Islands)
 - Updated graphics for Lilycove City's Space Center, Route 119's Weather Institute and Battle Frontier Buildings
+- Improve map graphics across the game as a whole
 - When interacting with the PC, its graphic changes to show that it's on. Also, the option "Access Someone's PC" has been changed to "Call Oak".
 - Changed the directory of where the game's options and speed are stored to be the same as save files to make it easier to port over to new versions of the game
 - Changed Butterfree, Unown and Seaking events to select a Pokémon from party rather than just checking the 1st Pokémon in your party
