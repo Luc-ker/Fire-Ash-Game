@@ -5,6 +5,9 @@ Issues Fixed:
 - Pokémon not evolving into their Hisuian forms on Mt. Coronet - Past
 - Shiny icons for Pokémon not moving when not being selected
 - Typos with Burn Heal and Paralyze being misspelled as "Bun Heal" and "Parlyz Heal" respectively
+- Battle against Burgundy on Skyarrow Bridge being removed from the Town Map update
+- Male Nidoran disappearing after beating Lt. Surge in Cerulean City near the cut tree
+- Fix graphical glitch with PWC building in the alternate universe in the postgame
 
 Misc.:
 - Further improve map graphics across the game as a whole
@@ -59,7 +62,7 @@ Grandeur Club Changes:
 - Added more trainers to Sync, Titan and ??? Challenges and rebalanced some trainers
 - Fixed Hisui and Galar achievement not tracking properly
 - Fixed SS Mina's Trainer Move making the opponents unable to use moves
-- Fixed healing triggering an unlimited amount of times for a trainer in the ??? Challenge
+- Fixed a soft lock where healing triggered an unlimited amount of times for a trainer in the ??? Challenge
 
 Misc.:
 - Improved the game's graphics renderer to reduce lag near water (thanks Deshraj!)
