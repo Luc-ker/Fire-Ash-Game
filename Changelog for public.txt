@@ -75,7 +75,7 @@ Misc.:
 - Changed Butterfree, Unown and Seaking events to select a Pokémon from party rather than just checking the 1st Pokémon in your party
 - Changed the transition between Valor Lakefront and Route 213 - you are now on Route 213 after you exit the house, rather than below the stairs
 - The ship that takes you to Hoenn and Sinnoh from Vermillion City will now dynamically update the names of the location it takes you to
-- Pikachu now learns Thunder Wave at level 15 (previously 4), Squirtle now learns Bite at level 15 (previously 12) and Pidgeotto now learns Wing Attack at level 15 (previously 37)
+- Pikachu now learns Thunder Wave at level 15 (previously 4), Squirtle now learns Bite at level 16 (previously 12) and Pidgeotto now learns Wing Attack at level 15 (previously 37)
 
 
 *********************************
