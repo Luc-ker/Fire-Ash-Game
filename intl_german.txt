@@ -24530,15 +24530,15 @@ Beenden
 Snowpoint City\nCity of Snow
 Blizzach\nStadt des Schnees
 \bLooker: Hello! I'm investigating Team Galactic. I've discovered you've encountered them a few times.
-\bLebecht: Hallo! Ich ermittle gegen Team Galaktik. Ich habe erfahren, dass du ihnen schon ein paar Mal begegnet bist.
+\bLeBelle: Hallo! Ich ermittle gegen Team Galaktik. Ich habe erfahren, dass du ihnen schon ein paar Mal begegnet bist.
 \bYes... Yes, I see... Very fascinating. Thank you, that willl be quite helpful.
 \bJa... verstehe... sehr faszinierend. Danke, das wird mir sehr nützlich sein.
 \bWho am I? My codename is Looker. I'm a detective working for the International Police.
-\bWer ich bin? Mein Codename ist Looker. Ich bin ein Detektiv der Internationalen Polizei.
+\bWer ich bin? Mein Codename ist LeBelle. Ich bin ein Detektiv der Internationalen Polizei.
 \bI've taken up enough of your day though. Thank you for the help.
 \bIch habe schon genug von deiner Zeit beansprucht. Danke für die Hilfe.
 \bLooker: I've taken up enough of your day though. Thank you for the help.
-\bLebecht: Ich habe schon genug von deiner Zeit beansprucht. Danke für die Hilfe.
+\bLeBelle: Ich habe schon genug von deiner Zeit beansprucht. Danke für die Hilfe.
 \rDon't get too close to the water. It will freeze you right up.
 \rGeh dem Wasser nicht zu nahe. Du wirst sofort einfrieren.
 \bI don't know if you can handle this move yet. Come back if you ever beat Candice.
@@ -29812,7 +29812,7 @@ Verwirrung
 \bNot so fast.
 \bNicht so schnell.
 \bLooker: It is I, Looker of the International Police. You're all under arrest.
-\bLebecht: Ich bin es, Lebecht von der Internationalen Polizei. Sie sind alle festgenommen.
+\bLeBelle: Ich bin es, LeBelle von der Internationalen Polizei. Sie sind alle festgenommen.
 \b\PN, thank you for your assistance once again. Another group of criminals have been brought to justice.
 \b\PN, danke nochmals für deine Unterstützung. Eine weitere Gruppe von Kriminellen wurde ihrer gerechten Strafe zugeführt.
 \bWhat?
@@ -29822,7 +29822,7 @@ Verwirrung
 \bDon't bother yourself with me.
 \bBeachte mich gar nicht erst.
 \bLooker: Thank you for your help. I'll deal with rounding up the rest of Team Plasma.
-\bLebecht: Danke für deine Hilfe. Ich werde mich darum kümmern, den Rest von Team Plasma einzusammeln.
+\bLeBelle: Danke für deine Hilfe. Ich werde mich darum kümmern, den Rest von Team Plasma einzusammeln.
 [Map772]
 \bPikachu
 \bPikachu
@@ -38441,7 +38441,7 @@ Nein
 \bYou won't make it.
 \bDu wirst es nicht schaffen.
 \bLooker: Team Galactic is done for. But Dialga and Palkia are still an issue.
-\bLebecht: Team Galaktik ist erledigt. Aber Dialga und Palkia sind immer noch ein Problem.
+\bLeBelle: Team Galaktik ist erledigt. Aber Dialga und Palkia sind immer noch ein Problem.
 \bBrock: Find the ones in charge.
 \bRocko: Findet die Verantwortlichen.
 \rCynthia: We need to subdue Dialga and Palkia.
@@ -38459,7 +38459,7 @@ Du bist im Begriff, einen Kampf gegen ein Legendäres Pokémon zu beginnen, das 
 \rCynthia: You've done it. The Pokémon have gone back to their own dimensions.
 \rCynthia: Du hast es geschafft. Die Pokémon sind in ihre eigenen Dimensionen zurückgekehrt.
 \bLooker: Yes, and Team Galactic has been defeated. I wonder what happened to their leader, Cyrus? He disappeared into the portal made by the legendaries.
-\bLebecht: Ja, und Team Galaktik wurde besiegt. Ich frage mich, was mit ihrem Anführer Zyrus passiert ist? Er ist in dem Portal verschwunden, das die Legendären erschaffen haben.
+\bLeBelle: Ja, und Team Galaktik wurde besiegt. Ich frage mich, was mit ihrem Anführer Zyrus passiert ist? Er ist in dem Portal verschwunden, das die Legendären erschaffen haben.
 \bWe can worry about that later. I'll handle arresting everyone. Cynthia, could you escort the children to safety?
 \bDarum kümmern wir uns später. Ich übernehme die Verhaftungen. Cynthia, könntest du die Kinder in Sicherheit bringen?
 \rI would be happy to. \PN, let's go.
@@ -40583,7 +40583,7 @@ Luxray
 Luxtra
 406
 Budew
-Knospar
+Knospi
 407
 Roserade
 Roserade
@@ -40625,7 +40625,7 @@ Floatzel
 Bojelin
 420
 Cherubi
-Kicklee
+Kikugi
 421
 Cherrim
 Kinoso
@@ -41231,7 +41231,7 @@ Druddigon
 Shardrago
 622
 Golett
-Geronimatz
+Golbit
 623
 Golurk
 Golgantes
@@ -41255,7 +41255,7 @@ Vullaby
 Skallyk
 630
 Mandibuzz
-Griatsch
+Grypheldis
 631
 Heatmor
 Furnifraß
@@ -43224,6 +43224,33 @@ Salmagnis
 1286
 Enamorus
 Cupidos
+1287
+Regigigas
+Regigigas
+1288
+Moltres
+Lavados
+1289
+Moltres
+Lavados
+1290
+Sirfetch'd
+Lauchzelot
+1291
+Muk
+Sleimok
+1292
+Mewtwo
+Mewtu
+1293
+Tyranitar
+Despotar
+1294
+Charizard
+Glurak
+1295
+Lucario
+Lucario
 [2]
 1
 Seed
@@ -44478,16 +44505,16 @@ EleSquirrel
 Elektrohörnchen 
 418
 Sea Weasel
-Seewiesel 
+Meereswiesel 
 419
 Sea Weasel
-Seewiesel 
+Meereswiesel 
 420
 Cherry
 Kirsch 
 421
 Blossom
-Blüten 
+Blüte 
 422
 Sea Slug
 Meeresschnecke 
@@ -44607,10 +44634,10 @@ Frost Tree
 Frostbaum 
 461
 Sharp Claw
-Sensenklauen 
+Stichklaue
 462
 Magnet Area
-Magnetfeld 
+Magnetgebiet
 463
 Licking
 Schlecker 
@@ -44622,7 +44649,7 @@ Vine
 Ranken 
 466
 Thunderbolt
-Donnerblitz 
+Donnerkeil
 467
 Blast
 Knaller 
@@ -44634,28 +44661,28 @@ Ogre Darner
 Riesenlibellen 
 470
 Verdant
-Grünland 
+Unreif
 471
 Fresh Snow
 Neuschnee 
 472
 Fang Scorp
-Skorpionscheren 
+Zahnskorpi
 473
 Twin Tusk
-Doppelstoß 
+Doppelstoßzahn
 474
 Virtual
 Virtuell 
 475
 Blade
-Klingen 
+Klinge 
 476
 Compass
 Kompass 
 477
 Gripper
-Greifarm 
+Greifer
 478
 Snow Land
 Schneeland 
@@ -47082,7 +47109,34 @@ Big Fish
 Fischschwarm 
 1286
 Love-Hate
-Hassliebe 
+Hassliebe
+1287
+Colossal
+Giganten
+1288
+Flame
+Flammen
+1289
+Flame
+Flammen
+1290
+Wild Duck
+Wildenten
+1291
+Sludge
+Schlamm
+1292
+Genetic
+Genmutant
+1293
+Armor
+Panzer
+1294
+Flame
+Flammen
+1295
+Aura
+Aura
 [3]
 1
 There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
@@ -50942,6 +50996,33 @@ Es hüllt sich in die Seelen seiner Gefährten, die auf dem Weg flussaufwärts v
 1286
 When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
 Wenn es über das Meer geflogen kommt, endet der bittere Winter. Die Legende besagt, dass seine Liebe überall in Hisui neues Leben erblühen lässt.
+1287
+Luc-ker's Regigigas, free from the shackles that bind it.
+Luc-ker's Regigigas, free from the shackles that bind it.
+1288
+Luc-ker's Moltres in its sealed form.
+Luc-ker's Moltres in its sealed form.
+1289
+Luc-ker's Moltres in its final form.
+Luc-ker's Moltres in its final form.
+1290
+Hitsukid's Sirfetch'd, an embodiment of War. Hungry for battles.
+Hitsukid's Sirfetch'd, an embodiment of War. Hungry for battles.
+1291
+Hitsukid's Muk, with insatiable hunger that makes this dangerous to contain.
+Hitsukid's Muk, with insatiable hunger that makes this dangerous to contain.
+1292
+Hitsukid's Mewtwo, formed out of true despair.
+Hitsukid's Mewtwo, formed out of true despair.
+1293
+Hitsukid's Tyranitar, destruction and chaos pursues its target closely.
+Hitsukid's Tyranitar, destruction and chaos pursues its target closely.
+1294
+Hitsukid's Charizard, the sign of suffering and depression.
+Hitsukid's Charizard, the sign of suffering and depression.
+1295
+Hitsukid's Lucario, its power was never meant to be contained within.
+Hitsukid's Lucario, its power was never meant to be contained within.
 [4]
 19
 Kantonian Form
@@ -52170,6 +52251,33 @@ Weiblich
 1286
 Therian Forme
 Tiergeistform
+1287
+Luc-ker's Regigigas
+Luc-ker's Regigigas
+1288
+Sphere Mode
+Sphere Mode
+1289
+Immortal Phoenix
+Immortal Phoenix
+1290
+War
+War
+1291
+Famine
+Famine
+1292
+Death
+Death
+1293
+Disaster
+Disaster
+1294
+Pestilence
+Pestilence
+1295
+Holocaust
+Holocaust
 [5]
 1
 Megahorn
