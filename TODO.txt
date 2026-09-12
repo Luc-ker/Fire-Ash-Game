@@ -1,9 +1,30 @@
+Notes to self:
+Map995 and Map996 is for some change I made but can't rmb
+
+new areas:
+- silph co?
+- sprout tower
+- burnt + bell tower (could open bell tower during Journeys?)
+- battle chateau
+- olivine city beach?
+
+translations:
+- None!
+
+fix crystal ow sprite in postgame
+fix translation files from pkmn ordering change (non-german)
+remove .wav cries and duplicated pkmn cries (numbers and species)
+ - done, but now need to go through entire game to find mons using the old cries!
+multi battles alongside companions vs Team Rocket?
+apricorn issue
+mons w Alolan, Hisuian and Galarian forms in trainer battles
+
+
 True PWC:
 add anime exclusive trainers (trip, tobias, etc.)
 nando (gentleman)
 zoey (cool trainer f)
 plumeria
-add team viewer to end of despair challenge
 
 Field effects
 - Power Field (?) -> (Re)charge moves have no cooldown
@@ -28,18 +49,14 @@ issues:
 qol stuff:
 - Change directory of GameSpeedSetting.dat and PokemonSystem to keybindings folder (ideally, rn it's in the Save Files folder) so it doesn't need to be updated for every redownload
 - Update MKXP to use the version that Pokémon Essentials v21.1 uses - this should hopefully make the game lag less!
-- Update graphics for the Town Map for all regions (waiting on Hitsu)
+- Update graphics for the Town Map for all regions (waiting on Hitsu to do Alola and Galar)
+ - I could prolly do Orange Islands myself tbf?
 
 - cut down on game size by utilising audio looping (finished all secret prefixes minus Jupiter and a few others)
  - may need to re-look at the following: secretdespair, secretfoul, secretkamado, secretlaventon, secretvolo
- - remove .wav cries
 
-- loop sygna and nc trainers too (done, game currently at 588 MB)
 
 - overhaul sync challenge mechanics:
- - all mons take 1/4 damage, instead of only opp. taking 1/2 damage (done)
- - add PP restore feature (min 1 per move) (done)
- - new buffs: PP Restore increase (lv 1 default can be 1/16 PP, lv 2 can be 1/8, lv 3 can be 1/4), guaranteed 2ndary effects
  - challenge mode buffs: stat bonuses for opps, prio. for opps, "choice items" (they deal more dmg/are faster but can only use 1 move), sure hit, guaranteed 2ndary effects (if they don't already have them), status cond. immunity, interference immunity (would have to make them activate when challenge mode is on)
  - "duplicate" moves that have been kept: Techno Blast 2, Stockpile 2
 
@@ -54,7 +71,7 @@ qol stuff:
  - utilise passives more for sync and titan trainers - most likely an overhaul to most trainers (done)
 - could use more unique ow and trainer sprites for npcs if they're provided; can already do this if they're in the main series games as they're most likely already in GC (already done for Tierno, Trevor and Shauna)
 - ^ for legendary and dynamax mons too (done)
-- maybe redo Brooklet Hill into another map (currently map 912)
+- maybe redo Brooklet Hill into another map? (currently map 912)
 
 new website:
 - homepage
@@ -69,18 +86,16 @@ Neo Champion Hop
 Neo Champion Bede
 Neo Champion Elio
 Neo Champion Selene
-
-(currently being done by Megshi, might take like 3 months tho)
 Neo Champion Leaf
 Neo Champion Blue
 
 need in-battle sprite:
-Arc Suit Ethan
-Arc Suit Silver
+Arc Suit Ethan (mostly done, just needs some detail)
+Arc Suit Silver (mostly done, just needs some detail)
 Arc Suit Blue
 Arc Suit Brock
 Arc Suit Misty
 Arc Suit Sabrina
 Arc Suit Korrina
 
-"I've found a bug/clitch and/or game crashing battle in the Alola region specifically Hau'oli Outskirts and the Mall against your classmates as the music will stop, you can finish the battle but game may crash afterwords as it doesn't load back the music."
+"I've found a bug/glitch and/or game crashing battle in the Alola region specifically Hau'oli Outskirts and the Mall against your classmates as the music will stop, you can finish the battle but game may crash afterwords as it doesn't load back the music."

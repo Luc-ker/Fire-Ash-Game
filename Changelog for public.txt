@@ -1,16 +1,27 @@
 **************************
 Version 3.8 (??-??-2026/7)
 **************************
+New features:
+- More postgame areas! (TBD)
+- Added more unique audio across the game! If undesired, there is also a version of the game with the same amount of audio as in the previous update, as well as an audioless version.
+- Added an Italian translation to the game and improved the German one! (thank you Jancus and Lipper442!)
+
 Issues Fixed:
 - Pokémon not evolving into their Hisuian forms on Mt. Coronet - Past
 - Shiny icons for Pokémon not moving when not being selected
 - Typos with Burn Heal and Paralyze being misspelled as "Bun Heal" and "Parlyz Heal" respectively
-- Battle against Burgundy on Skyarrow Bridge being removed from the Town Map update
+- Battle against Burgundy on Skyarrow Bridge being removed because of the Town Map update
 - Male Nidoran disappearing after beating Lt. Surge in Cerulean City near the cut tree
+- Man with Poliwrath in Celadon City having a Poliwhirl instead
+- Gary's opponent in an OW battle on Route 37 missing his Pokémon for the battle
+- Fix certain trainers having Alolan/Galarian forms of Pokémon in battle
 - Fix graphical glitch with PWC building in the alternate universe in the postgame
 
 Misc.:
 - Further improve map graphics across the game as a whole
+- Fix Officer Jenny having incorrect text colour in Saffron City and Safari Zone Kanto
+- Delete duplicate Pokémon cry files in Audio/SE, which should reduce zip file extraction times/compensate for the new audio
+- Add a .nomedia file to the game's root folder to prevent images showing up in phone gallery
 
 
 **************************
