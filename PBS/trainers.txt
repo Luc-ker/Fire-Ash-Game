@@ -12115,7 +12115,7 @@ Pokemon = MEDITITE,17
 LoseText = "But how?"
 Pokemon = PSYDUCK,17
 #-------------------------------
-[AROMALADY,Cheryl]
+[POKEMONTRAINER_Cheryl,Cheryl]
 LoseText = "It's not easy."
 Pokemon = CHANSEY,16
     Moves = ATTRACT,DOUBLESLAP,EGGBOMB
@@ -12223,7 +12223,7 @@ Pokemon = GEODUDE,17
 Pokemon = ONIX,19
 Pokemon = GEODUDE,17
 #-------------------------------
-[LASS,Mira]
+[POKEMONTRAINER_Mira,Mira]
 LoseText = "Very strong."
 Pokemon = ABRA,17
     Moves = TELEPORT,PSYCHIC
@@ -13494,7 +13494,7 @@ LoseText = "I will marry him."
 Pokemon = VILEPLUME,45
     Moves = STUNSPORE,SOLARBEAM,POISONPOWDER,ACID
 #-------------------------------
-[CHANELLER,Marley]
+[POKEMONTRAINER_Marley,Marley]
 LoseText = "You seem nice."
 Pokemon = ARCANINE,45
     Moves = FLAMETHROWER,EXTREMESPEED,FIREFANG,BITE
@@ -19011,13 +19011,13 @@ LoseText = "Oh no."
 Pokemon = FEAROW,12
 Pokemon = CYNDAQUIL,12
 #-------------------------------
-[GMAX_Snorlax,Snorlax]
+[DMAX_Pokemon,Snorlax]
 LoseText = "..."
 Pokemon = SNORLAX,10
 TrainerAce = yes
  Gigantamax = yes
 #-------------------------------
-[GMAX_Drednaw,Drednaw]
+[DMAX_Pokemon,Drednaw]
 LoseText = "..."
 Pokemon = DREDNAW,15
 TrainerAce = yes
@@ -19297,25 +19297,25 @@ LoseText = "Electric."
 Pokemon = RAICHU,30
 Pokemon = RAICHU_1,30
 #-------------------------------
-[LEGEND_Zapdos,Zapdos]
+[LEGEND_Kanto,Zapdos]
 LoseText = "..."
 Pokemon = ZAPDOS,40
 Pokemon = ELECTABUZZ,30
 #-------------------------------
-[GMAX_Centiskorch,Centiskorch]
+[DMAX_Pokemon,Centiskorch]
 LoseText = "..."
 Pokemon = CENTISKORCH,35
     Name = Centy
 TrainerAce = yes
  Gigantamax = yes
 #-------------------------------
-[DMAX_Pangoro,Pangoro]
+[DMAX_Pokemon,Pangoro]
 LoseText = "..."
 Pokemon = PANGORO,35
 TrainerAce = yes
  Gigantamax = yes
 #-------------------------------
-[GMAX_Coalossal,Coalossal]
+[DMAX_Pokemon,Coalossal]
 LoseText = "..."
 Pokemon = COALOSSAL,35
 TrainerAce = yes
@@ -19368,17 +19368,7 @@ Pokemon = ETERNATUS,40
 TrainerAce = yes
  Gigantamax = yes
 #-------------------------------
-[DYNAMAXPOKEMON,Eternatus,1]
-LoseText = "..."
-Pokemon = ETERNATUS,50
-TrainerAce = yes
- Gigantamax = yes
-Pokemon = MEOWTH,25
-    Gender = male
-    Moves = FURYSWIPES,SCRATCH,BITE
-    IV = 20
-#-------------------------------
-[GMAX_Meowth,Meowth]
+[DMAX_Pokemon,Meowth]
 LoseText = "..."
 Pokemon = MEOWTH,25
     Gender = male
@@ -19400,7 +19390,7 @@ Pokemon = SABLEYE,37
 LoseText = "Ugh."
 Pokemon = SHIFTRY,37
 #-------------------------------
-[LEGEND_Mewtwo,Mewtwo]
+[LEGEND_Kanto,Mewtwo]
 LoseText = "Your dreams. I see them now."
 Pokemon = MEWTWO,45
     Moves = PSYCHIC,BARRIER,COUNTER,SHADOWBALL
@@ -19590,7 +19580,7 @@ Pokemon = WEAVILE,41
 Pokemon = URSHIFU,43
     Moves = WICKEDBLOW,THUNDERPUNCH,CLOSECOMBAT
 #-------------------------------
-[LEGEND_Moltres,Moltres]
+[LEGEND_Kanto,Moltres]
 LoseText = "..."
 Pokemon = MOLTRES,45
     Moves = AIRSLASH,BURNUP,FIRESPIN,HURRICANE
@@ -19771,7 +19761,7 @@ Pokemon = PALOSSAND,48
 Pokemon = PALOSSAND,48
 Pokemon = MIMIKYU,48
 #-------------------------------
-[LEGEND_Heatran,Heatran]
+[LEGEND_Sinnoh,Heatran]
 LoseText = "..."
 Pokemon = HEATRAN,55
     Moves = MAGMASTORM,STONEEDGE
@@ -20000,7 +19990,7 @@ Pokemon = DARMANITAN,55
 Pokemon = RUNERIGUS,55
     Moves = SANDTOMB,BULLDOZE
 #-------------------------------
-[LEGEND_Articuno,Articuno]
+[LEGEND_Kanto,Articuno]
 LoseText = "..."
 Pokemon = ARTICUNO,60
     Moves = SHEERCOLD,BLIZZARD,TRIPLEAXEL,ICESHARD
@@ -20083,7 +20073,7 @@ LoseText = "Oh no."
 Pokemon = WOOLOO,12
     Moves = DOUBLEKICK
 #-------------------------------
-[LEGEND_Lugia,Lugia]
+[LEGEND_Johto,Lugia]
 LoseText = "..."
 Pokemon = LUGIA,75
     Moves = AEROBLAST,HYDROPUMP
